@@ -6,7 +6,7 @@
 #    By: dpoulter <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/07/18 11:14:09 by dpoulter          #+#    #+#              #
-#    Updated: 2018/07/18 11:14:10 by dpoulter         ###   ########.fr        #
+#    Updated: 2018/07/20 11:59:24 by dpoulter         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,8 @@ NAME = filler_tester
 SRC = main.c \
 	  map00.c \
 	  map01.c \
-	  map02.c
+	  map02.c \
+	  helper.c
 
 HEAD = -Ilibft/includes/ -Iprintf/. -I.
 
